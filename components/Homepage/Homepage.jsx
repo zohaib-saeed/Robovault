@@ -1,7 +1,12 @@
 import React from "react";
+import Navbar from "./Sections/Navbar";
 
 const Homepage = () => {
-  return <div>Homepage</div>;
+  return (
+    <div className="bg-[url('/images/mainbg.png')] bg-black bg-no-repeat  bg-center bg-fixed w-full h-screen">
+      <Navbar />
+    </div>
+  );
 };
 
 export default Homepage;
