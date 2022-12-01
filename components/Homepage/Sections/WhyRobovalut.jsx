@@ -15,7 +15,7 @@ const WhyRobovalut = () => {
     <div className="py-10 md:py-16 w-full h-auto flex flex-col items-center justify-center">
       <Container>
         <div className="flex items-between justify-center flex-col gap-20 w-full">
-          <Heading text="Why RoboVault" />
+          <Heading text="Why RoboVault?" />
           <div className="flex items-center justify-center flex-col w-full">
             {/* Timeline => Desktop */}
             <div className="hidden md:flex">
