@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Applying background to whole body */
+html {
+  background-image: url("/public/images/mainbg.png") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
 /* Hero section text gradient  */
 .heroTextGradient {
   background: #25cc0f;
