@@ -39,13 +39,13 @@
 }
 
 .css-idv8vo {
-  /* width: 2px;
-    background-color: #bdbdbd;
-    -webkit-box-flex: 1;
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1; */
-  background: none;
+  width: 2px;
+  background-color: none;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  /* background: none; */
 }
 
 .MuiTimeline-positionAlternate
@@ -59,6 +59,9 @@
 .MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
   content: none !important;
 }
+/* .MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
+  content: none !important;
+} */
 
 .MuiTimeline-positionRight .MuiTimelineConnector-root {
   width: 0px;
@@ -67,6 +70,6 @@
   height: 170px;
 }
 
-.css-1rcbby2:before {
+/* .css-1rcbby2:before {
   content: none;
-}
+} */
