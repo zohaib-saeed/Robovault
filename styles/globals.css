@@ -28,7 +28,7 @@
 .MuiTimelineConnector-root {
   width: 0px;
   border-left: 4px dashed #164f18;
-  background-color: transparent;
+  background: none;
   height: 160px;
 }
 
@@ -53,6 +53,6 @@
 .MuiTimeline-positionRight .MuiTimelineConnector-root {
   width: 0px;
   border-left: 4px dashed #164f18;
-  background-color: transparent;
+  background: none;
   height: 170px;
 }
