@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Sections/Hero";
 import Navbar from "./Sections/Navbar";
 import Scores from "./Sections/Scores";
+import Strategies from "./Sections/Strategies";
 import WhyRobovalut from "./Sections/WhyRobovalut";
 
 const Homepage = () => {
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Hero />
       <Scores />
       <WhyRobovalut />
+      <Strategies />
     </div>
   );
 };

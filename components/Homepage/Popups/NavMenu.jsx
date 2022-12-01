@@ -4,6 +4,7 @@ import Modal from "@mui/material/Modal";
 import CloseIcon from "@mui/icons-material/Close";
 
 import Typography from "../../Commons/Typography";
+import Button from "../../Commons/Button";
 
 const NavMenu = ({ open, setOpen }) => {
   // Modal state handlers
@@ -38,6 +39,8 @@ const NavMenu = ({ open, setOpen }) => {
             <Typography text="docs" capitalize hover />
           </Link>
         </div>
+        {/* => Launch app button */}
+        <Button text="launch app" capitalize />
       </div>
     </Modal>
   );

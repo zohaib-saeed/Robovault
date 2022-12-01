@@ -12,7 +12,7 @@ import Container from "../../Commons/Container";
 
 const WhyRobovalut = () => {
   return (
-    <div className="py-10 md:py-16 w-full h-auto flex flex-col items-center justify-center">
+    <div className="py-5 md:py-8 w-full h-auto flex flex-col items-center justify-center">
       <Container>
         <div className="flex items-between justify-center flex-col gap-10 md:gap-20 w-full">
           <Heading text="Why RoboVault?" />

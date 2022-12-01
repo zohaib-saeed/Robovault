@@ -50,10 +50,6 @@
   content: none !important;
 }
 
-/* .MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
-  content: none !important;
-} */
-
 .MuiTimeline-positionRight .MuiTimelineConnector-root {
   width: 0px;
   border-left: 4px dashed #164f18;
@@ -61,6 +57,30 @@
   height: 170px;
 }
 
-/* .css-1rcbby2:before {
-  content: none;
-} */
+/* Positioned left timeline customization */
+.MuiTimelineItem-positionLeft {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px 8px;
+}
+.MuiTimelineItem-positionLeft:before {
+  content: none !important;
+}
+
+.MuiTimeline-positionLeft .MuiTimelineContent-root {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.MuiTimeline-positionLeft .MuiTimelineConnector-root {
+  width: 0px;
+  border-left: 4px dashed #164f18 !important;
+  background: none !important;
+  height: 77px !important;
+}
+
+.strategy .MuiTimelineConnector-root {
+  height: 80px !important;
+}
