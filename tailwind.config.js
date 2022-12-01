@@ -10,7 +10,8 @@ module.exports = {
     colors: {
       'black': "#000000",
       'white': "#fff",
-      'lightGreen': "#2F9633"
+      'lightGreen': "#2F9633",
+      'darkGreen': "#164F18"
     },
     extend: {
       fontFamily: {

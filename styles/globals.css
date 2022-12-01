@@ -2,17 +2,57 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Applying background to whole body */
-/* html {
-  background-image: url("/public/images/mainbg.png") no-repeat center center;
-  background-size: cover;
-  overflow: hidden;
-} */
-
 /* Hero section text gradient  */
 .heroTextGradient {
   background: #25cc0f;
   background: linear-gradient(to bottom right, #25cc0f 17%, #d6da0d 65%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Timeline Customization */
+.MuiTimeline-root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MuiTimelineItem-root {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.MuiTimelineConnector-root {
+  width: 0px;
+  border-left: 4px dashed #164f18;
+  background-color: transparent;
+  height: 160px;
+}
+
+.MuiTimelineContent-root {
+  padding: 0px 16px;
+  width: 100%;
+  display: flex;
+}
+
+.MuiTimeline-positionAlternate
+  .css-1v6o2d9-MuiTimelineItem-root:nth-of-type(even)
+  .MuiTimelineContent-root {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
+  content: none;
+}
+
+.MuiTimeline-positionRight .MuiTimelineConnector-root {
+  width: 0px;
+  border-left: 4px dashed #164f18;
+  background-color: transparent;
+  height: 170px;
 }
