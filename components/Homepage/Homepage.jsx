@@ -4,7 +4,7 @@ import Navbar from "./Sections/Navbar";
 
 const Homepage = () => {
   return (
-    <div>
+    <div className="bg-[url('/images/mainbg.png')] bg-black bg-no-repeat  bg-center bg-fixed w-full ">
       <Navbar />
       <Hero />
     </div>

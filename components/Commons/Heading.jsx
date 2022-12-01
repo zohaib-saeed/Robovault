@@ -11,7 +11,7 @@ const Heading = ({
 }) => {
   return (
     <p
-      className={`${textSize ? textSize : "text-6xl"} ${
+      className={`${textSize ? textSize : "text-4xl md:text-6xl"} ${
         color ? color : "text-white"
       } ${fontWeight ? fontWeight : "font-bold"} ${
         capitalize && "capitalize"
