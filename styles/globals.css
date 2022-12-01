@@ -56,9 +56,10 @@
   align-items: flex-start;
 }
 
-.MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
+.MuiTimelineItem-positionRight:before {
   content: none !important;
 }
+
 /* .MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
   content: none !important;
 } */
