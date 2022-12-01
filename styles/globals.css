@@ -26,9 +26,9 @@
 }
 
 .MuiTimelineConnector-root {
-  width: 0px;
+  width: 1px;
   border-left: 4px dashed #164f18;
-  background: none;
+  background-color: none;
   height: 160px;
 }
 
@@ -36,16 +36,6 @@
   padding: 0px 16px;
   width: 100%;
   display: flex;
-}
-
-.css-idv8vo {
-  width: 2px;
-  background-color: none;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  /* background: none; */
 }
 
 .MuiTimeline-positionAlternate
