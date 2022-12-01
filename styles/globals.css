@@ -47,7 +47,7 @@
 }
 
 .MuiTimeline-positionRight .css-ha3bif-MuiTimelineItem-root:before {
-  content: none;
+  content: none !important;
 }
 
 .MuiTimeline-positionRight .MuiTimelineConnector-root {
