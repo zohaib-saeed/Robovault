@@ -4,9 +4,11 @@ const Typography = ({
   text,
   textSize,
   fontWeight,
+  textAlign,
   color,
   capitalize,
   hover,
+  gradient,
 }) => {
   return (
     <p
@@ -14,7 +16,9 @@ const Typography = ({
         color ? color : "text-white"
       } ${fontWeight ? fontWeight : "font-normal"} ${
         capitalize && "capitalize"
-      } ${hover && "hover:text-opacity-70"} transition-all`}
+      }  ${textAlign ? textAlign : "text-center"} ${
+        hover && "hover:text-opacity-70"
+      } transition-all ${gradient && "heroTextGradient"}`}
     >
       {text}
     </p>

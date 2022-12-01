@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hero section text gradient  */
+.heroTextGradient {
+  background: #25cc0f;
+  background: linear-gradient(to bottom right, #25cc0f 17%, #d6da0d 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
