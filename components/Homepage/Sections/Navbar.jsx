@@ -6,7 +6,6 @@ import NavMenu from "../Popups/NavMenu";
 
 import Link from "next/link";
 import Image from "next/image";
-import Divider from "@mui/material/Divider";
 import { Turn as Hamburger } from "hamburger-react";
 
 const Navbar = () => {
@@ -40,13 +39,10 @@ const Navbar = () => {
             <NavMenu open={isOpen} setOpen={setOpen} />
           </div>
           {/* Right => Buttons*/}
-          <div className="flex items-center justify-end gap-6">
+          <div className="flex items-center justify-end gap-3 md:gap-6">
             <Button text="launch app" capitalize />
-            <Divider
-              orientation="vertical"
-              flexItem
-              className="bg-white max-h-[27px] mt-[8px]"
-            />
+            <div className="h-[25px] w-[1.5px] bg-white"></div>
+
             <div className="w-[26px] h-[26px] relative flex items-center justify-center cursor-pointer">
               <Image
                 src="/icons/moon.svg"
