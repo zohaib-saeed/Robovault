@@ -62,7 +62,6 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 0px 8px;
 }
 .MuiTimelineItem-positionLeft:before {
   content: none !important;
@@ -80,6 +79,10 @@
   border-left: 4px dashed #164f18 !important;
   background: none !important;
   height: 77px !important;
+}
+
+.MuiTimelineContent-positionRight {
+  padding: 0px 8px !important;
 }
 
 .strategy .MuiTimelineConnector-root {
