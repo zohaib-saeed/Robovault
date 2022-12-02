@@ -83,6 +83,10 @@
 
 .MuiTimelineContent-positionRight {
   padding: 0px 8px !important;
+  margin-top: -1px !important;
+}
+.MuiTimelineContent-positionLeft {
+  padding: 0px 8px !important;
 }
 
 .strategy .MuiTimelineConnector-root {
