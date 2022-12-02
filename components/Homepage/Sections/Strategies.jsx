@@ -6,6 +6,7 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import { Divider } from "@mui/material";
+import Link from "next/link";
 
 import Typography from "../../Commons/Typography";
 import Heading from "../../Commons/Heading";
@@ -223,7 +224,7 @@ In concrete terms, our USDC vault live on AVAX utilising our core delta neutral 
             <div className="w-[3px] bg-white hidden lg:flex lg:h-[650px] xl:h-[620px]"></div>
             {/* => Strategy steps */}
             <div className="w-full lg:w-[60%] h-full flex items-center justify-center">
-              <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] flex items-center justify-center relative">
+              <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] -mt-8 md:-mt-0 flex items-center justify-center relative">
                 <Image
                   src="/images/strategy.png"
                   alt=""
@@ -231,6 +232,30 @@ In concrete terms, our USDC vault live on AVAX utilising our core delta neutral 
                   className="object-contain"
                 />
               </div>
+            </div>
+          </div>
+          {/* => Bottom Description */}
+          <div className="flex flex-col items-start justify-center gap-4 md:gap-8 w-full">
+            <Typography
+              textAlign="text-left"
+              fontWeight="font-light"
+              text="Once this position is created, our keepers actively manage the strategy in order to minimise the exposure of market movements & ensure there is no risk of liquidation from the borrowing component of the strategy."
+            />
+            <div className="flex items-start justify-start gap-2">
+              <Typography
+                textAlign="text-left"
+                fontWeight="font-extralight"
+                textSize="text-lg"
+                text="Learn more about the strategy here: "
+              />
+              <Link href="/">
+                <Typography
+                  textAlign="text-left"
+                  fontWeight="font-extralight"
+                  textSize="text-lg"
+                  text="Link "
+                />
+              </Link>
             </div>
           </div>
         </div>

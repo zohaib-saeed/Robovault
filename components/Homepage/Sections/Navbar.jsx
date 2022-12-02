@@ -13,7 +13,7 @@ const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <div className="py-4 w-full flex flex-col items-center justify-center">
+    <div className="py-2 md:py-4 w-full flex flex-col items-center justify-center">
       <Container>
         <div className="flex items-center justify-between text-white w-full">
           {/* Left => Nav Links for larger screens */}
