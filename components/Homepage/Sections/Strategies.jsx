@@ -221,7 +221,7 @@ In concrete terms, our USDC vault live on AVAX utilising our core delta neutral 
               </div>
             </div>
             {/* => Divider */}
-            <div className="w-[3px] bg-white hidden lg:flex lg:h-[650px] xl:h-[620px]"></div>
+            <div className="w-[3px] bg-boulder hidden lg:flex lg:h-[650px] xl:h-[620px]"></div>
             {/* => Strategy steps */}
             <div className="w-full lg:w-[60%] h-full flex items-center justify-center">
               <div className="w-full h-[300px] sm:h-[400px] md:h-[500px] -mt-8 md:-mt-0 flex items-center justify-center relative">

@@ -17,7 +17,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        roboto: ['Roboto', ...defaultTheme.fontFamily.sans]
+        roboto: ['Roboto', ...defaultTheme.fontFamily.sans],
+        roboto_flex: ['Roboto Flex', ...defaultTheme.fontFamily.sans]
       },
     },
   },
