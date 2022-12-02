@@ -5,6 +5,7 @@ import Navbar from "./Sections/Navbar";
 import Partners from "./Sections/Partners";
 import Scores from "./Sections/Scores";
 import Strategies from "./Sections/Strategies";
+import Testimonials from "./Sections/Testimonials";
 import WhyRobovalut from "./Sections/WhyRobovalut";
 
 const Homepage = () => {
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Scores />
       <WhyRobovalut />
       <Strategies />
+      <Testimonials />
       <Partners />
       <Footer />
     </div>

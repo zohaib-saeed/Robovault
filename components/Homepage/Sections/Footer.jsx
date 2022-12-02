@@ -27,7 +27,7 @@ const Footer = () => {
             </p>
           </div>
           {/* =>Bottom Stripe */}
-          <div className="py-4 md:py-8 flex flex-col items-center justify-center gap-2 bg-black bg-opacity-30 w-full">
+          <div className="py-4 md:py-8 flex flex-col items-center justify-center gap-2 bg-black bg-opacity-20 w-full">
             {/* Social Icons */}
             <div className="flex justify-between items-center gap-2">
               <Link href="/">
