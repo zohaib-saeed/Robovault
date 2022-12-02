@@ -244,15 +244,17 @@ In concrete terms, our USDC vault live on AVAX utilising our core delta neutral 
             <div className="flex items-start justify-start gap-2">
               <Typography
                 textAlign="text-left"
-                fontWeight="font-extralight"
+                fontWeight="font-light"
                 textSize="text-lg"
+                color="text-boulder"
                 text="Learn more about the strategy here: "
               />
               <Link href="/">
                 <Typography
                   textAlign="text-left"
-                  fontWeight="font-extralight"
+                  fontWeight="font-light"
                   textSize="text-lg"
+                  color="text-boulder"
                   text="Link "
                 />
               </Link>

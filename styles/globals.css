@@ -71,7 +71,8 @@
 .MuiTimeline-positionLeft .MuiTimelineContent-root {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: flex-start;
+  padding: 0px 8px;
 }
 
 .MuiTimeline-positionLeft .MuiTimelineConnector-root {

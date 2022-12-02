@@ -12,7 +12,8 @@ module.exports = {
       'white': "#fff",
       'lightGreen': "#2F9633",
       'darkGreen': "#164F18",
-      'lightBlack': "rgba(43, 43, 43, 0.75)"
+      'lightBlack': "rgba(43, 43, 43, 0.75)",
+      'boulder': "#7A7A7A"
     },
     extend: {
       fontFamily: {
