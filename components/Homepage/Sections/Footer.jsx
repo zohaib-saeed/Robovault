@@ -8,7 +8,7 @@ import Container from "../../Commons/Container";
 
 const Footer = () => {
   return (
-    <div className="pt-16 w-full h-auto flex flex-col items-center justify-center">
+    <div className="pt-16 w-full h-auto flex flex-col items-center justify-center ">
       <Container>
         <div className="flex flex-col items-center justify-center gap-8 md:gap-16">
           {/* => More about us heading + Discord Link */}
@@ -26,24 +26,24 @@ const Footer = () => {
               and ask yourself!
             </p>
           </div>
-          {/* =>Bottom Stripe */}
-          <div className="py-4 md:py-8 flex flex-col items-center justify-center gap-2 bg-black bg-opacity-20 w-full">
-            {/* Social Icons */}
-            <div className="flex justify-between items-center gap-2">
-              <Link href="/">
-                <Image src="/icons/discord.svg" alt="" width={20} height={16} />
-              </Link>
-              <Link href="/">
-                <Image src="/icons/twitter.svg" alt="" width={20} height={16} />
-              </Link>
-            </div>
-            {/* Copyright text */}
-            <p className="font-roboto_flex text-white font-bold text-lg">
-              A ROBOCORP PRODUCTION © 2022
-            </p>
-          </div>
         </div>
       </Container>
+      {/* =>Bottom Stripe */}
+      <div className="mt-8 md:mt-16 py-3 md:py-5 flex flex-col items-center justify-center gap-2 bg-black bg-opacity-50  w-full">
+        {/* Social Icons */}
+        <div className="flex justify-between items-center gap-2">
+          <Link href="/">
+            <Image src="/icons/discord.svg" alt="" width={20} height={16} />
+          </Link>
+          <Link href="/">
+            <Image src="/icons/twitter.svg" alt="" width={20} height={16} />
+          </Link>
+        </div>
+        {/* Copyright text */}
+        <p className="font-roboto_flex text-white font-bold text-lg">
+          A ROBOCORP PRODUCTION © 2022
+        </p>
+      </div>
     </div>
   );
 };
