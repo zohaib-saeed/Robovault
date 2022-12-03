@@ -40,13 +40,13 @@ const Navbar = () => {
           </div>
           {/* Right => Buttons*/}
           <div className="flex items-center justify-end gap-3 md:gap-6">
-            <div className="hidden md:flex items-center justify-center">
+            {/* <div className="hidden md:flex items-center justify-center">
               <Button text="launch app" capitalize />
-            </div>
+            </div> */}
             {/* => divider */}
-            <div className="hidden md:block h-[25px] w-[1.5px] bg-white"></div>
+            {/* <div className="hidden md:block h-[25px] w-[1.5px] bg-white"></div> */}
 
-            <div className="w-[32px] md:w-[26px] h-[32px] md:h-[32px] relative flex items-center justify-center cursor-pointer">
+            <div className="w-[32px] md:w-[32px] h-[32px] md:h-[32px] relative flex items-center justify-center cursor-pointer">
               <Image
                 src="/icons/moon.svg"
                 alt=""

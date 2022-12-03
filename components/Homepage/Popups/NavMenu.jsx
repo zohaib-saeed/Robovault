@@ -40,7 +40,7 @@ const NavMenu = ({ open, setOpen }) => {
           </Link>
         </div>
         {/* => Launch app button */}
-        <Button text="launch app" capitalize />
+        {/* <Button text="launch app" capitalize /> */}
       </div>
     </Modal>
   );

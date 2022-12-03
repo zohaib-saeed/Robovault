@@ -4,6 +4,7 @@ import Image from "next/image";
 import Typography from "../../Commons/Typography";
 import Heading from "../../Commons/Heading";
 import Container from "../../Commons/Container";
+import Button from "../../Commons/Button";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
       <Container>
         <div className=" py-6 h-auto flex flex-col items-between justify-center gap-20">
           {/* Top => Hero Image + Headings + Description */}
-          <div className="flex flex-col items-center justify-center gap-3">
+          <div className="flex flex-col items-center justify-center gap-3 md:gap-4">
             {/* Image */}
             <div className="w-[200px] md:[227px] md:h-[212px] h-[180px] flex items-center justify-center relative">
               <Image
@@ -34,6 +35,8 @@ const Hero = () => {
               </p>
               <Typography text="Strategies powered by RoboVault." />
             </div>
+            {/* => CTA Button */}
+            <Button text="Start earning!" />
           </div>
           {/* Bottom => Icons */}
           <div className="flex flex-col items-center justify-center gap-3">
